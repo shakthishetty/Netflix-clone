@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./otp.css">
+</head>
+<body>
+    <div class="container1">
+        <div class="container2">
+            <h2>OTP Verification</h2>
+          
+            <p class="otp3">Your code was sent to you via email</p>
+            <form action="./index.html" onsubmit="return otp(event)">
+                <div class="otp1"> 
+                    <input type="tel" name="otp1" id="otp1" maxlength="1"><br>
+                    <input type="tel" name="otp2" id="otp2" maxlength="1"><br>
+                    <input type="tel" name="otp3" id="otp3" maxlength="1"><br>
+                    <input type="tel" name="otp4" id="otp4" maxlength="1"><br>
+                    <input type="tel" name="otp5" id="otp5" maxlength="1"><br>
+                    <input type="tel" name="otp6" id="otp6" maxlength="1"><br>
+                </div>
+                <div>
+                    <p class="error">Invalid OTP. Please try again.</p>
+                </div>
+                <button type="submit">Verify OTP</button>
+            </form>
+        </div>
+    </div>
+    <script src="./otp.js"></script>
+</body>
+</html>

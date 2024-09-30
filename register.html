@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registerForm</title>
+    <link rel="stylesheet" href="./regester.css">
+</head>
+<body>
+    <section class="body">
+      <div class="container">
+       <div class="container1">
+        <div class="container2">
+            <div class="img">
+                <img src="./Netflix_Logo_PMS (1).png" alt="netflix">
+            </div>
+              
+        </div>
+
+       </div>
+      </div>
+      <section class="main">
+         <div class="main1">
+            <div class="main2">
+                <form action="./login.html" onsubmit="register(event)">
+               <div class="main3">
+               <h1>Sign Up</h1>
+               </div>
+               <div class="main3">
+                <input type="text" placeholder="Fullname" name="fullname" id="fullname">
+                <p class="error"></p>
+               </div>
+               <div class="main3">
+                <input type="email" placeholder="Email" name="email" id="email">
+                <p class="error1"></p>
+               </div>
+               <div class="main3">
+                <input type="tel" placeholder="Enter mobile number" name="mobile" id="mobile">
+                 <p class="error3"></p>
+               </div>
+               <div class="main3">
+                <input type="password" placeholder="Password" name="password" id="password">
+                <p class="error4"></p>
+               </div>
+
+               <div class="main3">
+                <input type="password" placeholder="Confirm Password" name="confirm password" id="cpassword">
+                <p class="error5"></p>
+               </div>
+
+               <div class="btn">
+                  <button onclick=" register(event)">Sign Up</button>
+               </div>
+
+
+            </form>
+            </div>
+         </div>
+      </section>
+    </section>
+    <script src="./register.js"></script>
+</body>
+</html>

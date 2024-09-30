@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <div class="wrapper">
+    <section class="netfixHead">
+      <div class="netfixHead1">
+         <div class="netfixHead2">
+            <div class="heading">
+                  <img src="./Netflix_Logo_PMS.png" alt="">
+            </div>
+         </div>
+       
+         <div class="netfixHead3">
+               <div class="container">
+               
+                 <select name="lang" id="name">
+                    <!-- <i class="fa-solid fa-language"></i> -->
+                    <option value="English">English</option>
+                    <option value="Kannada">Kannada</option>
+
+                   
+                 </select>
+               </div>
+               
+               <div class="container1">
+                  <button onclick="login()">Sign In</button>
+               </div>
+         </div>
+      </div>
+    
+    </section>
+    <section class="netflixMain">
+       <div class="netflixMain1">
+          <div class="netflixMain2">
+                <h1>Unlimited movies, TV shows and more</h1>
+          </div>
+          <div class="netflixMain3">
+              <p>Starts at ₹149. Cancel anytime.</p>
+          </div>
+          <div class="netflixMain4">
+                      <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+          </div>
+          <div class="netflixMain5">
+                <div class="netflixMain6">
+                  <form action="./register.html" method="post" onsubmit="return register(event)" id="registerForm">
+                     <input type="email" placeholder="Email address" name="email" id="email" >
+                  </form>
+                   
+                    
+                </div>
+               
+                <div class="netflixMain7">
+                    <!-- <i class="fa-solid fa-greater-than"></i> -->
+                    <button class="btn" onclick=" register()">Get Started</button>
+                </div>
+          </div>
+          <p class="error"></p>
+       </div>
+      
+    </section>
+    </div>
+    <section class="shape">
+         <div class="cards">
+             <div class="card1">
+                 <h1>Trending Now</h1>
+             </div>
+             <div class="card2">
+               <div class="card3">
+                  <select name="movies" id="shakthi" onchange="demo1(event)">
+                   
+                     <option value="English">India</option>
+                     <option value="Global" >Global</option>
+ 
+                    
+                  </select>
+               </div>
+               <div class="card4">
+                  
+                  <select name="movies" id="shakthi1" onchange="demo1(event)">
+                   
+                     <option value="Movies" id="global">Movies</option>
+                     <option value="TvShows">Tv Shows</option>
+                     <!-- <option value="Movies-English">Movies-English</option> -->
+                     <option value="Movies-OtherLanguge">Movies-OtherLanguge</option>
+ 
+                    
+                  </select>
+               </div>
+                 
+             </div>
+             <div class="card5">
+                   <div class="card6">
+                    <div class="subcard">
+                          <img src="./download.svg" alt="" class="flipped-icon" onclick="demo()">
+                    </div>
+                   </div>
+                   <div class="card7">
+                      <div class="containe">
+                         <div class="containe1">
+                             <img src="./image/image1.jpg" alt="">
+                         </div>
+                      </div>
+                      <div class="containe">
+                        <div class="containe1">
+                            <img src="./image/image2.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="containe">
+                        <div class="containe1">
+                            <img src="./image/image3.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="containe">
+                        <div class="containe1">
+                           <img src="./image/image4.jpg" alt="">
+                        </div>
+                      </div>
+                      <div class="containe">
+                        <div class="containe1">
+                          <img src="./image/image5.jpg" alt="">
+                        </div>
+                      </div>
+                    
+                   </div>
+                   <div class="card6">
+                     <div class="subcard">
+                        <img src="./download.svg" alt="" class="white-icon" onclick="demo()">
+                     </div>
+                   </div>
+             </div>
+
+         </div>
+    </section>
+    <section class="third">
+        <div class="third1">
+           <div class="third2">
+             <h1>More reasons to join</h1>
+           </div>
+      
+        </div>
+        <div class="third3">
+           <div class="third4">
+              <div class="third5">
+                <div class="thi">
+                  <div class="thi1">
+                    <h1>Enjoy on your TV</h1>
+                  </div>
+                </div>
+                <div class="third7">
+                  <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more.</p>
+                </div>
+                <div class="third8">
+                   <div class="img3">
+                      <img src="./download (2).svg" alt="lap">
+                   </div>
+                </div>
+              </div>
+             
+
+              <div class="third6">
+               <div class="thi">
+                  <div class="thi1">
+                     <h1>Download your shows to watch offline</h1>
+                  </div>
+              </div>
+              <div class="third7">
+                   <p>Save your favourites easily and always have something to watch.</p>
+              </div>
+              <div class="third8">
+                 <div class="img3">
+                    <img src="./download (3).svg" alt="arrow">
+                 </div>
+              </div>
+           </div>
+        </div>
+        <div class="third4">
+         <div class="third5">
+           <div class="thi">
+             <div class="thi1">
+                   <h1>Watch everywhere</h1>
+             </div>
+           </div>
+           <div class="third7">
+                   <p>Stream unlimited movies and TV shows on your phone, tablet, laptop and TV.</p>
+           </div>
+           <div class="third8">
+              <div class="img3">
+                 <img src="./download (4).svg" alt="">
+              </div>
+           </div>
+         </div>
+        
+
+         <div class="third6">
+          <div class="thi">
+             <div class="thi1">
+              <h1>Create profiles for kids</h1>
+             </div>
+         </div>
+         <div class="third7">
+          <p>Send kids on adventures with their favourite characters in a space made just for them — free with your membership.</p>
+         </div>
+         <div class="third8">
+            <div class="img3">
+               <img src="./download (5).svg" alt="">
+            </div>
+         </div>
+      </div>
+   </div>
+    </section>
+    <section class="last">
+      <div class="last1">
+         <div class="last2">
+           <div class="last3">
+            <h3>Ready to watch? Enter your email to create or restart your membership.</h3>
+           </div>
+           <div class="last4">
+         <div class="last5">
+            <form action="" onsubmit="register1(event)">
+               <input type="email" placeholder="Email address" class="inp" id="email1" >
+              
+            </form>
+            <p class="eror"></p>
+           
+         </div>
+        
+         <div class="last6">
+           <button onclick="register1()">Get Started</button>
+         </div>
+           </div>
+        
+
+         </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <div class="footer1">
+        <div class="footer2">
+         <p>Questions? Call <a href="">000-800-919-1694</a></p>
+        </div>
+        <div class="footer3">
+            <div class="minfooter">
+              <div class="min">
+                <a href="">FAQ</a>
+              </div>
+              <div class="min">
+               <a href="">
+                  Help Centre</a>
+              </div>
+              <div class="min">
+               <a href="">
+                  Account</a>
+              </div>
+            </div>
+            <div class="minfooter">
+               <div class="min">
+               <a href="">Media Centre</a>
+               </div>
+               <div class="min">
+               <a href="">
+                  Investor Relations</a>
+               </div>
+               <div class="min">
+               <a href="">
+                  Jobs</a>
+               </div>
+            </div>
+            <div class="minfooter">
+               <div class="min">
+                <a href="">Ways to Watch</a>
+               </div>
+               <div class="min">
+                <a href="">
+                  Terms of Use</a>
+               </div>
+               <div class="min">
+                <a href="">Privacy</a>
+               </div>
+            </div>
+            <div class="minfooter">
+               <div class="min">
+               <a href="">Cookie Preferences</a>
+               </div>
+               <div class="min">
+                 <a href="">
+                  Corporate Information</a>
+               </div>
+               <div class="min">
+                <a href="">
+                  Contact Us</a>
+               </div>
+            </div>
+            <div class="minfooter">
+               <div class="min">
+                 <a href="">Speed Test</a>
+               </div>
+               <div class="min">
+                 <a href="">
+                  Legal Notices</a>
+               </div>
+               <div class="min">
+                  <a href="">
+                     Only on Netflix</a>
+               </div>
+            </div>
+        </div>
+        <div class="footer4">
+             <select name="selecting" id="">
+                <option value="English">English</option>
+                <option value="English">English</option>
+             </select>
+        </div>
+        <div class="footer5">
+        <p>Netflix India</p>
+        </div>
+      </div>
+    </footer>
+    <script src="./index.js"></script>
+</body>
+</html>
